@@ -138,7 +138,7 @@ requests_proxies = dict(
 # ############## Output Settings ##############
 # Verbose level (0~4) 0:important and error 1:info 2:warning 3/4:debug. Default is 3 (for first time runner)
 # 注意: 在正式部署到服务器后, 请把这个值修改为2, 如果设置为3或4,会产生非常大量的debug输出
-verbose_level = 3
+verbose_level = 0
 
 # #####################################################
 # ################# ADVANCED Settings #################
