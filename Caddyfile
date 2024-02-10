@@ -5,4 +5,5 @@ www.usk59.com {
 
 usk59.com {
     reverse_proxy localhost:8000
+    transparent
 }
