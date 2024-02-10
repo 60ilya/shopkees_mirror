@@ -1,4 +1,4 @@
-my_host_name = '127.0.0.1'
+my_host_name = 'usk59.com'
 
 my_host_port = None
 
@@ -131,8 +131,8 @@ is_use_proxy = False
 # If is_use_proxy = False, the following setting would NOT have any effect
 # DO NOT support socks4/5 proxy. If you want to use socks proxy, please use Privoxy to convert them to http(s) proxy.
 requests_proxies = dict(
-    http='http://127.0.0.1:8123',
-    https='https://127.0.0.1:8123',
+    http='http://usk59.com',
+    https='https://usk59.com',
 )
 
 # ############## Output Settings ##############
@@ -185,7 +185,7 @@ enable_connection_keep_alive = True
 # If you want to use the builtin server to listen Internet (NOT recommend)
 # please modify the following configs
 # set built_in_server_host='0.0.0.0' and built_in_server_debug=False
-built_in_server_host = '127.0.0.1'
+built_in_server_host = 'usk59.com'
 built_in_server_debug = False
 
 # v0.23.2+ other params which will be passed to flask builtin server
