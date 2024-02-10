@@ -1,0 +1,8 @@
+www.usk59.com {
+    redir https://usk59.com{uri}
+}
+
+
+usk59.com {
+    reverse_proxy localhost:8000
+}
