@@ -126,7 +126,7 @@ domains_whitelist_auto_add_glob_list = ('*.shopkees.com',)
 # Global proxy option, True or False (case sensitive)
 # Tip: If you want to make an GOOGLE mirror in China, you need an foreign proxy.
 #        However, if you run this script in foreign server, which can access google directly, set it to False
-is_use_proxy = True
+is_use_proxy = False
 
 # If is_use_proxy = False, the following setting would NOT have any effect
 # DO NOT support socks4/5 proxy. If you want to use socks proxy, please use Privoxy to convert them to http(s) proxy.
