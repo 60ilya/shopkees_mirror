@@ -2,7 +2,7 @@ my_host_name = 'usk59.com'
 
 my_host_port = None
 
-my_host_scheme = 'http://'
+my_host_scheme = 'https://'
 
 target_domain = 'www.shopkees.com'
 
