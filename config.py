@@ -102,7 +102,7 @@ external_domains = (
 )
 
 # 'ALL' for all, 'NONE' for none(case sensitive), ('foo.com','bar.com','www.blah.com') for custom
-force_https_domains = 'NONE'
+force_https_domains = 'ALL'
 
 # v0.19.0+ Automatic Domains Whitelist (Experimental)
 # by given wild match domains (glob syntax, '*.example.com'), if we got domains match these cases,
@@ -131,7 +131,7 @@ is_use_proxy = True
 # If is_use_proxy = False, the following setting would NOT have any effect
 # DO NOT support socks4/5 proxy. If you want to use socks proxy, please use Privoxy to convert them to http(s) proxy.
 requests_proxies = dict(
-    http='https://usk59.com',
+    http='http://usk59.com',
     https='https://usk59.com',
 )
 
