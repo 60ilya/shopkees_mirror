@@ -4,7 +4,7 @@ my_host_port = None
 
 my_host_scheme = 'https://'
 
-target_domain = 'www.tknogy.com'
+target_domain = 'https://www.tknogy.com'
 
 target_scheme = 'https://'
 
