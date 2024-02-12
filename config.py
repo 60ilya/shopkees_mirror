@@ -4,7 +4,7 @@ my_host_port = None
 
 my_host_scheme = 'https://'
 
-target_domain = 'https://www.tknogy.com'
+target_domain = 'tknogy.com'
 
 target_scheme = 'https://'
 
@@ -368,7 +368,7 @@ enable_custom_access_cookie_generate_and_verify = False
 # 2.It can also do url shorten jobs, but because it only rewrite url PATH, you cannot change the url's domain.
 #     eg1: http://foo.com/wiki  --->  http://foo.com/extdomains/zh.wikipedia.org/
 #     eg2: http://foo.com/scholar  --->  http://foo.com/extdomains/https-scholar.google.com/
-url_custom_redirect_enable = False
+url_custom_redirect_enable = True
 
 # Only applies to url PATH, other parts remains untouched
 # It's an plain text list. Less function but higher performance, have higher priority than regex rules
@@ -385,7 +385,7 @@ url_custom_redirect_list = {
     # '/w/api.php': '/extdomains/https-zh.wikipedia.org/w/api.php',
 
     # This example acts as an tinyurl program
-    '/wiki': '/extdomains/https-zh.wikipedia.org/',
+    # '/wiki': '/extdomains/https-zh.wikipedia.org/',
 }
 
 # If you want more complicated regex redirect, please add then in this dict.
